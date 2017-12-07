@@ -58,6 +58,10 @@ class TrinomialPriceModel(PriceModel):
     """A trinomial price model with recombining tree.
 
     Attributes:
+    A price set
+    A probability for the price going up
+    A probability for the price going down
+    
     """
 
     def __init__(self,price_set,up,down):
